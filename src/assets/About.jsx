@@ -42,9 +42,12 @@ const About = () => {
               delaySpeed={1000}
             />
           </h6>
-          <p className='text-[#9ea2a3] text-justify  text-[1.11rem]'>{bioData.description}</p>
-          <a className='cursor-pointer ' href={`tel:+91${contactUs.mobile}`}><button className='rounded-full cursor-pointer text-[1.2rem] h-[3rem] mt-5 text-white font-medium bg-gradient-to-r from-pink-500 w-[60%] to-purple-600 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 flex items-center gap-2 justify-center'><MdPhone size={23}/>Contact us</button>
+          <p className='text-[#9ea2a3] lg:text-justify  text-[1.11rem]'>{bioData.description}</p>
+        <div className='flex justify-center  w-full'>
+
+          <a className='cursor-pointer w-[60%]' href={`tel:+91${contactUs.mobile}`}><button className='rounded-full w-full cursor-pointer text-[1.2rem] h-[3rem] mt-5 text-white font-medium bg-gradient-to-r from-pink-500  to-purple-600 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 flex items-center gap-2 justify-center'><MdPhone size={23}/>Contact us</button>
           </a>
+        </div>
         </div>
 
       </motion.main>
