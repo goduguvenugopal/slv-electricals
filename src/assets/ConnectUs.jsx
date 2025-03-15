@@ -54,7 +54,7 @@ const ConnectUs = () => {
                         {contactUs.mobile}
                     </a>
                     <a
-                        href={`https://t.me//91${contactUs.mobile}`}
+                        href={`https://t.me/+91${contactUs.mobile}`}
                         rel="noopener noreferrer"
                         className='flex items-center gap-2  hover:text-white   text-[1.1rem] p-4 rounded-lg transition-colors duration-300 bg-gray-900 hover:bg-blue-600 hover:border-none border border-gray-300'
                     >

@@ -34,7 +34,7 @@ const Contact = () => {
         } else {
             const serviceID = "service_n4gebel";
             const templateID = "template_kion7hz";
-            const publicKey = "3Sx7Q56LxndwYPdzB";
+            const publicKey = "3Sx7Q56LxndwYPdzB ";
             setSpinner(true)
             emailjs.send(serviceID, templateID, data, publicKey)
                 .then(() => {
@@ -62,7 +62,7 @@ const Contact = () => {
             <h5 className="text-3xl mb-3 text-white font-medium">Contact us</h5>
             <div className='flex justify-center w-full'>
                 <p className="text-[#9ea2a3] text-[1.1rem] text-center lg:w-[60%]">
-                    Feel free to contact SLV Electricals for reliable solutions, from lightning protection to industrial works. Let's ensure safety and efficiency together!
+                Get in touch for with us reliable solutions, from Lightning Protection to Industrial Works. Ensuring safety and efficiency, always!
                 </p>
             </div>
 

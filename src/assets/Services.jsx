@@ -28,10 +28,8 @@ const Services = () => {
                             <div className="flex justify-center items-center gap-3 flex-wrap">
                                 {title.services.map((item, index1) => (
                                     <div
-                                        className="border flex justify-center px-5 py-2 items-center gap-2 border-gray-400 rounded-3xl"
-                                        key={index1}
-                                    >
-                                        
+                                        className="border flex justify-center px-5 py-2 items-center gap-2 border-gray-300 bg-gray-900 rounded-3xl"
+                                        key={index1}> 
                                         <h5 className="text-[#9ea2a3] font-medium text-[1rem]">{item}</h5>
                                     </div>
                                 ))}
