@@ -157,7 +157,7 @@ const Contact = () => {
 
                             {/* footer  section*/}
                             <section className="p-2 w-full pt-8 mt-7 border-t border-gray-200 text-center">
-                                <h5 className="text-purple-500 font-medium text-[1.12rem]">{bioData.name}</h5>
+                                <h5 className="text-orange-300 font-medium text-[1.12rem]">{bioData.name}</h5>
 
                                 <div className='flex justify-center gap-[0.8rem] lg:gap-5 mt-5'>
                                     <a href='#about' className='text-md lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>About</a>

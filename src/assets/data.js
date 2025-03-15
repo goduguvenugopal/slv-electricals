@@ -1,48 +1,68 @@
 export const bioData = {
-  name: "SLV electricals",
+  name: "SLV Electricals",
   profile: "",
   logo: "/logo.jpg",
   servicesImg: "/images/hero-section-image.webp",
   subTitle:
-    "Thank you for being here and we wanted to show you our Company standards at a glance here.",
+    "We appreciate your presence and would like to give you a brief overview of our company standards.",
   services: [
-    "ESE Lightning Arresters",
-    "Conventional Lightning Arresters",
-    "Industrial Electrical Works",
-    "Electrical Earthing",
-    "Lightning Protection System",
+    "Electrical Services for Industries",
+    "Grounding in Electrical Systems",
+    "System for Lightning Protection",
   ],
   description:
-    "We at SLV Electricals offer a full range of electrical services, including design, installation, maintenance, and repair, ensuring a seamless and efficient experience. Our team comprises highly skilled and certified electricians, equipped with the latest tools and techniques to deliver exceptional results. We are dedicated to delivering projects on time and within budget while maintaining the highest standards of quality and workmanship.Customer satisfaction is our top priority. We strive to build long-lasting relationships with our clients by providing exceptional service and exceeding their expectations.",
+    "At SLV Electricals, we provide comprehensive electrical services, encompassing design, installation, maintenance, and repair for a seamless and efficient experience. Our team consists of licensed and highly experienced electricians.",
+
+  subDec:
+    "Deliver the projects on me and within budget while maintaining the highest standards of quality and workmanship. We strive to satisfy and build long-lasting relationships with our clients by providing exceptional service and exceeding their expectations.  ",
 };
 
-export const ourServices = {
-  title: "Our Services",
-  subTitle:
-    "Here are some of the key services SLV Electricals has been specializing in over the past year.",
-  services: [
-    "⚡ Lightning Arresters Supply & Installations",
-    "🌩️ ESE Lightning Arresters Supply & Installations",
-    "🛠️ Conventional Copper Lightning Arresters Supply & Installations",
-    "🔌 SPD Supply & Installations",
-    "📜 Electrical Contracts",
-    "⚙️ Panel Boards Supply & Installations",
-    "🏭 Industrial Electrical Works",
-    "🛠️ Earthing Contractors",
-    "☀️ Solar Earthing Supply & Installation",
-    "🌍 Grid Earthing Supply & Installation",
-    "🔩 Deals with Earthing Material",
-    "⚡ Lightning Protection System Supply & Installations",
-    "📍 Site Inspections",
-    "🧪 Technical Testing",
-    "📑 Reports",
-    "⚡ Electrical Panel Installation",
-    "🔌 Wiring Installation",
-    "🏗️ Electrical Substation Installation",
-    "🛠️ Services",
-    "🔧 LT Panel Servicing",
-  ],
-};
+//   our services
+export const ourServices = [
+  {
+    title: "Lighting Protection Systems (LPS)",
+    services: [
+      "Early Streamer Emission (ESE) lightning arresters",
+      "Copper lightning arresters",
+      "Equipotential bonding bars",
+      "Air Termination/Lightning Rod/Franklin rod system",
+      "Surge protection system",
+      "Transient surge protectors",
+      "Bonding of conductive services",
+      "Down conductors",
+    ],
+  },
+  {
+    title: "Electrical Services",
+    services: [
+      "LT panels",
+      "Electrical panels and Distribution panels",
+      "Industrial outdoor & indoor panels",
+      "LT panel servicing & maintenance",
+      "Industrial electric works",
+    ],
+  },
+
+  {
+    title: "Electrical Earthing Services",
+    services: [
+      "Earthing system",
+      "Solar earthing system",
+      "Grid earthing system",
+      "Earthing material",
+      "Earthing contracts",
+    ],
+  },
+  {
+    title: "Other Technical Services",
+    services: [
+      "Site inspections",
+      "Technical testing",
+      "Test reports as per standards",
+    ],
+  },
+];
+
 
 export const contactUs = {
   name: "SLV electricals",
@@ -53,5 +73,5 @@ export const contactUs = {
   instagramName: "slv electricals",
   address: "Pragathi Nagar, Kukatpally, Hyderabad, Telangana, 500090",
   youtube: "",
-  location : ""
+  location: "",
 };
