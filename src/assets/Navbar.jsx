@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className={` lg:shadow-lg p-2 select-none relative ${menu ? "shadow-none" : "shadow-lg"}`}>
           {/* large device navbar section  */}
           <section className='flex lg:justify-around lg:items-center'>
-            <img onClick={menuOpenFunction} src={bioData.logo} alt="logo.jpeg" className='ml-1 cursor-pointer border-[0.1rem] border-purple-600 rounded-full  w-[3.6rem] h-[3.6rem]' />
+            <img onClick={menuOpenFunction} src={bioData.logo} alt="logo.jpeg" className='ml-1 cursor-pointer lg:cursor-default border-[0.1rem] border-purple-600 rounded-full  w-[3.6rem] h-[3.6rem]' />
             <div className=' gap-3 hidden lg:block'>
               <div className='flex gap-[3rem]'>
                 <a href='#about' className='text-[1.2rem] text-white font-semibold hover:text-blue-500'>About</a>

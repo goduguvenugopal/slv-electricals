@@ -7,13 +7,12 @@ import { MdPhone } from 'react-icons/md'
 
 const About = () => {
 
-
   return (
     <>
       <motion.main initial={{ y: 50, scale: 0.8, opacity: 0 }}
         whileInView={{ y: 0, scale: 1, opacity: 1 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        viewport={{ once: false }} className='p-3 w-full flex  justify-around flex-wrap mt-[3rem] gap-5'>
+        viewport={{ once: false }} className='p-3 w-full flex select-none justify-around flex-wrap mt-[3rem] gap-5'>
         {/* image card  */}
         <div className='w-full order-1 lg:order-2 lg:w-[36%] lg:h-[50vh] p-2'>
           <img src={bioData.servicesImg} alt="venugopal-image" className='border-2 border-purple-500 rounded-full w-full h-fit' />

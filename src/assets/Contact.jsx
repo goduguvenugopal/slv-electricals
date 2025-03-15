@@ -62,7 +62,7 @@ const Contact = () => {
             <h5 className="text-3xl mb-3 text-white font-medium">Contact us</h5>
             <div className='flex justify-center w-full'>
                 <p className="text-[#9ea2a3] text-[1.1rem] text-center lg:w-[60%]">
-                Get in touch with us reliable solutions, from Lightning Protection to Industrial Works. Ensuring safety and efficiency, always!
+                Get in touch with us for reliable solutions, from Lightning Protection to Industrial Works. Ensuring safety and efficiency, always!
                 </p>
             </div>
 
