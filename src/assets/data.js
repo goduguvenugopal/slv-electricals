@@ -20,7 +20,7 @@ export const bioData = {
 //   our services
 export const ourServices = [
   {
-    title: "Lighting Protection Systems (LPS)",
+    title: "Lightning Protection Systems (LPS)",
     services: [
       "Early Streamer Emission (ESE) lightning arresters",
       "Copper lightning arresters",

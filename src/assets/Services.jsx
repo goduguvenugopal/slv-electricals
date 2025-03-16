@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 const Services = () => {
     return (
         <>
-
             <main className="p-3 select-none mt-20 border-t-1 pt-18 text-center">
                 <h5 className="text-3xl mb-3 text-white font-medium">Our Services</h5>
                 <p className="text-[#9ea2a3] text-[1.1rem]">
