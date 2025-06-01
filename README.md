@@ -1,3 +1,12 @@
+SLV Electricals is a modern and responsive website built using React, Vite, and Tailwind CSS. The website provides a seamless user experience with a clean and intuitive UI. It showcases electrical products and services, allowing users to explore offerings with ease. The project highlights my expertise in React component architecture, state management, and responsive design.
+
+Key Features:
+✅ Built with React & Vite for fast performance
+✅ Responsive design using Tailwind CSS
+✅ Dynamic UI components for a smooth user experience
+✅ Scalable and maintainable codebase
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
